@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&family=Rubik:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+}
+body{
+    background-color:aqua ;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+ width: 750px; 
+ margin: 0 auto;
+ display: flex;  
+}
+
+.container .left_side{
+    background: black;
+    padding: 40px;
+    flex-basis: 35%;
+
+}
+
+
+.contact_info{
+    padding-top: 40px;
+    color: #fff;
+}
+.contact_info a{
+    color: #fff;
+}
+.title{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.contact_info ul{
+    position: relative;
+}
+
+.contact_info ul li {
+list-style: none;
+margin: 10px 0;
+cursor: pointer;
+}
+
+.contact_info ul li span{
+    color: #fff;
+}
+
+.summary p{
+    padding-top: 10px;
+    color: #fff;
+}
+
+.keyskills li{
+    color: #fff;
+}
+
+.keyskills h4{
+    color: #fff;
+}
+.Tech-skills h4{
+  padding-top: 10px; 
+  color: #fff;
+}
+
+.Tech-skills .text{
+   font-family: sans-serif; 
+   font-size: 15px;
+   color: #fff;
+}
+
+.container .right_side{
+ 
+     background: #fff; 
+    padding: 40px;
+}
+
+.title2::after{
+  content: ''; 
+  display: #fff; 
+  width: 95%;
+  height: 2px;
+  background-color: black;
+}
+
+
+.title3::after{
+content: '';
+display: block;
+width: 95;
+height: 2px;
+background-color: black;
+}
+
+.title4::after{
+  content: '';
+  display: block;  
+  width: 95%;
+  height: 2px;
+  background-color: black;
+}
+
+.title7::after{
+  content: '';
+  display: block;
+  width: 95%;
+  height: 2px;
+  background-color: black;
+  margin-left: 5px;
+}
+
+.titles3::after{
+   content: '';
+   display: block; 
+   width: 95%;
+   height: 2px;
+   background-color: black;
+}
+
+.title::after{
+  content: '';
+  display: block; 
+  width: 75%;
+  height: 2px; 
+  background-color: #fff;
+}
+
+.titles1::after{
+   content: ''; 
+   display: block;
+   width: 75%;
+   height: 2px;
+   background-color: #fff;
+}
+
+.titles2::after{
+   content: ''; 
+   display: block;
+   width: 75%;
+   height: 2px;
+   background-color: #fff;
+}
+
+.about{
+   margin-bottom: 50px; 
+}
+
+.about:last-child{
+   margin-bottom: 0; 
+}
+
+h4{
+  color: #0c7eb3; 
+  letter-spacing: 1px; 
+  margin-bottom: 10px;
+
+}
+
+.title5{
+   color:black;
+   flex-basis: 55%; 
+}
+
+.title6{
+   color:black ; 
+}
+
+.title6{
+   padding: 10px; 
+}
+.left_side{
+ float: left;
+ width: 30%; 
+}
+.right_side{
+  float: right;
+  width: 70%;
+}
+.row{
+    display: flex;
+}
